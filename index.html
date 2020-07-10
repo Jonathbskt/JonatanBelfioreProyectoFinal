@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="AWS. Encuentra tu hogar. Compra, venta y alquiler de inmuebles.">
+  <meta name="keywords" content="comprar casa, alquilar casa, comprar departamento, alquilar departamento, vender casa, vender departamento, mi casa, aws, departamento en argentina, alquiler argentina, comprar casa argentina,alquiler temporal, tasadores, asesores de inmuebles ">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <!-- Google Fonts -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;family=Poppins:ital,wght@0,300;0,400;0,700;1,400&amp;display=swap" />
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/718e90f264.js" crossorigin="anonymous"></script>
+  <!-- Animate CSS  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <!-- Hoja de Estilo -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <title>AWS Inmobiliaria. Jonatan Belfiore Design</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="logo">
+        <a class="navbar-brand" href="index.html"><img src="icons/aws.svg" alt="logomarca" /></a>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="toggle-navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#nosotros-empresa">Empresa <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Registrarme</a>
+          </li>
+
+          <li>
+            <a class="btn btn-primary" href="views/login.html"> Loguearme</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Aca tengo muchisimos problemas para hacer que la barra de busqueda sea responsive, junto con el título. No logro hacerlo aún -->
+
+  <main>
+    <section class="container-fluid hero wow animate_animated animate__fadeIn">
+      <h1 class=" titulo font-weight-bold text-white"> Encuentra tu hogar:</h1>
+      <div class="row busqueda container">
+        <div class="fondo col-lg-4 shadow-lg">
+          <input class="shadow-0 border-0 col-md-12  col-sm-12 col-xl-12 search" type="text" name="search"
+            placeholder="Inserte su busqueda">
+
+
+          <select class="custom-select col-md-12  col-sm-12 col-xl-12 " id="inputGroupSelect01">
+            <option selected value="alquilar">Comprar</option>
+            <option value="alquilar">Alquilar</option>
+            <option value="alquilerTemporal">Alquiler Temporal</option>
+          </select>
+
+          <select class="custom-select col-md-12  col-sm-12 col-xl-12 " id="inputGroupSelect02">
+            <option selected>Provincia</option>
+            <option value="santafe">Santa Fe</option>
+            <option value="cordoba">Cordoba</option>
+            <option value="buenosAires">Buenos Aires</option>
+            <option value="misiones">Misiones</option>
+            <option value="mendoza">Mendoza</option>
+            <option value="sanjuan">San Juan</option>
+          </select>
+
+          <select class="custom-select col-md-12  col-sm-12 col-xl-12" id="inputGroupSelect03">
+            <option selected>Ciudad</option>
+            <option value="rosario">Rosario</option>
+            <option value="carlosPaz">Carlos Paz</option>
+            <option value="capital">Capital</option>
+            <option value="posadas">Posadas</option>
+            <option value="lasHeras">Las Heras</option>
+            <option value="sanjuan">Sarmiento</option>
+          </select>
+
+          <div>
+            <button class="btn btn-primary col-md-12  col-sm-12 col-xl-12 boton-search " type="button"
+              id="button-addon2"><a href="views/busqueda.html"> Buscar </a><i class="fas fa-search"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="py-6 bg-light wow animate_animated animate__fadeIn">
+    <div class="container servicios">
+      <h2 class="font-weight-bold text-black text-center tituloServicios"> Relájate, hacemos todo por tí:</h2>
+      <div class="gridServicios">
+        <div class="row row-servicios">
+          <div class="col-sm">
+            <span> <img src="/icons/loan(1).png " class="icono" alt="icono">
+              <h4 class="font-weight-bold"> Variedad de propiedades:</h4>
+              <p> Más de 600.000 propiedades en toda America. </p>
+            </span>
+
+          </div>
+          <div class="col-sm">
+            <span> <img src="/icons/key.png" class="icono" alt="icono2">
+              <h4 class="font-weight-bold"> Líderes en ventas Online:</h4>
+              <p> Miles de clientes lograron vender y/o alquilar su propiedad en AWS. </p>
+            </span>
+          </div>
+          <div class="col-sm">
+            <span> <img src="/icons/seller.png" class="icono" alt="icono3">
+              <h4 class="font-weight-bold "> Tasamos tu inmueble:</h4>
+              <p> Nuestro equipo de profesionales al alcance de tus manos. </p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tengo un problema con esta sección. No puedo alinear las filas y columnas de manera que queden las imagenes del mismo tamaño junto con su card. Creo que seleccioné mal el card, este tiene este tipo de filas "locas" por asi decirlo. Queda bien si se tiene un buen gusto. Vere como lo acomodo o arreglaré -->
+
+  <section class="py-6 container tendencias mb-row-6  wow animate_animated animate__fadeIn">
+    <p class="subtituloTendencias font-weight-bold">Tu lugar en el mundo:</p>
+    <h2 class="font-weight-bold text-black text-left tituloTendencias">Ciudades tendencia en inmuebles actualmente:</h2>
+
+    <div class="container">
+
+      <div class="card-columns py-6 wow animate_animated animate__fadeIn">
+        <div class="card">
+          <a href="#"> <img src="img/lugares/claudio-antonelli-vQegMQy33go-unsplash.jpg" alt="rosario"> </a>
+        </div>
+
+        <div class="card">
+          <a href="#"> <img src="img/lugares/analia-ferrario-aaGo0H1I780-unsplash.jpg" alt="florianopolis"> </a>
+        </div>
+
+        <div class="card">
+          <a href="#"> <img src="img/lugares/jaime-sainte-marie-HjFZtml9MDM-unsplash.jpg" alt="santiago"> </a>
+        </div>
+
+        <div class="card">
+          <a href="#"> <img src="img/lugares/shot-by-cerqueira-lYgjpIWPfvg-unsplash.jpg" alt="riodejaneiro"> </a>
+        </div>
+
+        <div class="card">
+          <a href="#"> <img src="img/lugares/yulissa-tagle-AQRo2kPPb1M-unsplash.jpg" alt="ciduaddemexico"> </a>
+        </div>
+
+        <div class="card">
+          <a href="#"> <img src="img/lugares/nestor-barbitta-QhQ4WgX77G0-unsplash.jpg" alt="buenosaires"> </a>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="ultimas-publicaciones container wow animate_animated animate__fadeIn">
+    <div class="container">
+      <div class="titulos-publicaciones">
+        <p class="subtitulo-publicaciones font-weight-bold">¡Mantente informado!</p>
+        <h2 class="font-weight-bold text-black text-left">Ultimas Publicaciones</h2>
+      </div>
+    </div>
+
+    <class class="row">
+      <div class="col-sm-4 col-md-4 card3">
+        <div class="card card-text-center">
+          <a href="#"><img src="img/casas/apartment-bed-bedroom-chair-271624.jpg" class="card-img-top" alt=""></a>
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold"> Corrientes 734 - Caba </h5>
+            <h5 class="precio font-weight-bold">$30.000</h5>
+            <p class="card-text">Hermoso departamento en alquiler en la mejor zona de Buenos Aires. Amplio living
+              comedor y balcón. Texturas exquisitas al a vista con lujosos muebles y piso de madera. Habitaciones
+              grandes y espaciosas.
+            </p>
+            <a href="#">Ver más</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-4 col-md-4 card3">
+        <div class="card card-text-center">
+          <a href="#"> <img src="img/casas/apartment-blinds-cabinets-chairs-349749(1).jpg" class="card-img-top" alt="">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold"> Santa Fe 2355 - Mar del plata </h5>
+            <h5 class="precio font-weight-bold">$53.000</h5>
+            <p class="card-text">Excelente departamento 3 dormitorios. Se alquila. Consta de Ingreso living comedor,
+              cocina separada, galeria con balcón cerrado, dormitorio con placard. 2 baños y 2 garages.
+            </p>
+            <a href="#">Ver más</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4 col-md-4 card3">
+        <div class="card card-text-center">
+          <a href=""><img src="img/casas/empty-living-room-2251247.jpg" class="card-img-top" alt=""></a>
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold"> Entre Rios 334 - Mar del plata </h5>
+            <h5 class="precio font-weight-bold">$42.000</h5>
+            <p class="card-text">Alquiler casa ubicada en uno de los barrios más lindos de Rosario. (Jorge Cura), a
+              cuadras del club provincial. Consta de 3 habitaciones , 1 baño y estacionamiento. Gran oportunidad, casa
+              de diseño.
+            </p>
+            <a href="#">Ver más</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4 col-md-4 card3">
+        <div class="card card-text-center">
+          <a href="#"><img src="img/casas/apartment-contemporary-couch-curtains-275484.jpg" class="card-img-top"
+              alt=""></a>
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold"> Entre Rios 334 - Mar del plata </h5>
+            <h5 class="precio font-weight-bold">$42.000</h5>
+            <p class="card-text">Alquiler casa ubicada en uno de los barrios más lindos de Rosario. (Jorge Cura), a
+              cuadras del club provincial. Consta de 3 habitaciones , 1 baño y estacionamiento. Gran oportunidad, casa
+              de diseño.
+            </p>
+            <a href="#">Ver más</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4 col-md-4 card3">
+        <div class="card card-text-center">
+          <a href="#"> <img src="img/casas/gray-sofa-set-3946663.jpg" class="card-img-top" alt=""></a>
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold"> Entre Rios 334 - Mar del plata </h5>
+            <h5 class="precio font-weight-bold">$42.000</h5>
+            <p class="card-text">Alquiler casa ubicada en uno de los barrios más lindos de Rosario. (Jorge Cura), a
+              cuadras del club provincial. Consta de 3 habitaciones , 1 baño y estacionamiento. Gran oportunidad, casa
+              de diseño.
+            </p>
+            <a href="#">Ver más</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4 col-md-4 card3">
+        <div class="card card-text-center">
+          <a href="#"> <img src="img/casas/gray-sofa-set-3946663.jpg" class="card-img-top" alt=""></a>
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold"> Entre Rios 334 - Mar del plata </h5>
+            <h5 class="precio font-weight-bold">$45.000 USD</h5>
+            <p class="card-text">Vendo casa ubicada en uno de los barrios más lindos de Rosario. (Jorge Cura), a cuadras
+              del club provincial. Consta de 3 habitaciones , 1 baño y estacionamiento. Gran oportunidad, casa de
+              diseño.
+            </p>
+            <a href="#">Ver más</a>
+          </div>
+        </div>
+      </div>
+      </div>
+  </section>
+
+  <section class="jumbotron">
+    <div class="row container-fluid jumbo">
+      <h2 class="display-6 col-lg-6 font-weight-bold wow animate_animated animate__fadeIn ">Te asesoramos en cada
+        movimiento comercial que realices en AWS.</h2>
+      <p class="lead col-lg-6 wow animate_animated animate__fadeIn">Nuestros asesores te resolverán cualquier duda.</p>
+    </div>
+    <div>
+      <a class="btn btn-primary lg-6 btn-jumbotron shadow-lg wow animate_animated animate__fadeIn"
+        href="views/login.html"> Registrarme</a>
+    </div>
+  </section>
+
+  <section>
+    <div class="container asesores  wow animate_animated animate__fadeIn">
+      <p class="subtituloAsesores font-weight-bold col-lg-6">Nuestro Equipo:</p>
+      <h2 class="font-weight-bold text-black tituloAsesores col-sm-6 col-lg-6">Algunos de nuestros asesores:</h2>
+      <div class="row">
+        <div class="col">
+          <div id="carouselExampleSlidesOnly" class="carousel slide " data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active ">
+                <img src="img/Asesores/adult-beard-boy-casual-220453.jpg"
+                  class="d-block w-100 col-sm-4 col-md-4 rounded-sm rounded-circle" alt="imagen1">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="font-weight-bold text-shadow">Germán Garabio</h5>
+                  <p class="font-weight-bold  text-shadow">Tasador Inmobilirario</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="img/Asesores/women-s-white-and-black-button-up-collared-shirt-774909.jpg"
+                  class="d-block w-100 col-sm-4 col-md-4 rounded-sm rounded-circle" alt="imagen2">
+                <div class="carousel-caption d-non d-md-block">
+                  <h5 class="font-weight-bold">Tamara Ibañez</h5>
+                  <p class="font-weight-bold"> Marketing Digital</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="img/Asesores/selective-focus-photograph-of-man-wearing-gray-suit-jacket-1138903.jpg"
+                  class="d-block w-100 rounded-sm col-sm-4 col-md-4 rounded-circle" alt="imagen3">
+                <div class="carousel-caption d-non d-md-block">
+                  <h5 class="font-weight-bold"> Martin Venyercsan</h5>
+                  <p class="font-weight-bold"> Contratos Digitales</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="nosotros bg-light wow animate_animated animate__fadeIn" id="nosotros-empresa">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 col-sm-6 nosotros__box">
+          <h2 class="display-4 font-weight-bold text-center">Sobre nosotros:</h2>
+          <p class="font-weight-bold text-left ">En AWS nos proponemos satisfacer a nuestros clientes, liberando a los
+            propietarios de toda procupación relacionada a sus inmuebles y brindando a los inquilinos respuestas a sus
+            necesidades. Buscamos acercar a las partes en una operación de venta y/o alquiler brindando seguridad,
+            seriedad y equilibrio con el fin de lograr la plena conformidad entre compradores y vendedores.</p>
+        </div>
+
+        <div class="col-md-6 col-sm-6" id="nosotros-bg">
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+</body>
+
+</html>
+
+
+
+
+<!--    <section class="container col-md-12">
+      <div class="banner wow animate_animated animate__fadeIn ">
+        <video autoplay muted loop>
+          <source src="img/Videos/video(2).mp4" type="video/mp4">
+        </video>
+        <h2 class="display-3 font-weight-bold">>AWS</h2>
+      </div>
+    </section>  
+  
+  

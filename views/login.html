@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <!-- Google Fonts -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;family=Poppins:ital,wght@0,300;0,400;0,700;1,400&amp;display=swap" />
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/718e90f264.js" crossorigin="anonymous"></script>
+  <!-- Animate CSS  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+  <link rel="stylesheet" href="../css/animate.css" />
+  <!-- Hoja de Estilo -->
+  <link rel="stylesheet" href="../css/style.css" />
+
+  <title>AWS Inmobiliaria. Jonatan Belfiore Design</title>
+</head>
+
+<!-- Aca tengo un problema con el menú responsive pero lo voy a resolver a la brevedad. No me baja el menú. -->
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="logo">
+        <a class="navbar-brand" href="../index.html"><img src="../icons/aws.svg" alt="logomarca" /></a>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="toggle-navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html#nosotros-empresa">Empresa <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Registrarme</a>
+          </li>
+
+          <li>
+            <a class="btn btn-primary" href="views/login.html"> Loguearme</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 form-container">
+          <div class="bienvenido d-flex flex-column wow animate__animated animate__slideInLeft">
+            <img src="../icons/user.svg" alt="usuario" class="userImage" />
+            <h2 class="titulo__login font-weight-bold">¡Bienvenido!</h2>
+            <p>Ingresa con tus redes:</p>
+            <div class="socialmedia">
+              <img src="../icons/facebook.svg" alt="facebook" />
+              <img src="../icons/google-plus.svg" alt="googleplus" />
+              <img src="../icons/twitter.svg" alt="twitter" />
+            </div>
+            <p>O ingresa con tu:</p>
+            <div class="usuarioInput">
+              <input class="shadow-0 col-md-12 col-sm-12 col-xl-12 search" type="text" name="search"
+                placeholder="Email" />
+              <input class="shadow-0 col-md-12 col-sm-12 col-xl-12 search" type="text" name="search"
+                placeholder="Contraseña" />
+            </div>
+            <div>
+              <p><a href="#"> Olvidé mi contraseña</a></p>
+            </div>
+            <input type="button" value="Ingresar" class="ingresar font-weight-bold" />
+            <input type="button" value="Registrarme" class="registrarme font-weight-bold" />
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 d-none d-md-block image-container"></div>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+</body>
+
+</html>
+
+<!-- NUEVO
+
+    <main>
+      <div class="container-fluid">
+        
+        <div class="bienvenido wow animate__animated animate__slideInLeft">
+          <img src="../icons/user.svg" alt="usuario" class="userImage" />
+          <h2>¡Bienvenido!</h2>
+          <p>Ingresa con tus redes:</p>
+          <div class="socialmedia">
+            <img src="../icons/facebook.svg" alt="facebook" />
+            <img src="../icons/google-plus.svg" alt="googleplus" />
+            <img src="../icons/twitter.svg" alt="twitter" />
+          </div>
+          <p>O ingresa con tu:</p>
+          <div class="usuarioInput">
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Ingresa tu Email"
+              class="inputEmail"
+              required
+            />
+
+            <input
+              type="text"
+              name="contraseña"
+              id="contraseña"
+              placeholder="Ingresa tu Contraseña"
+              class="inputContraseña"
+              required
+            />
+          </div>
+          <div>
+            <p><a href="#"> Olvidé mi contraseña</a></p>
+          </div>
+          <input type="button" value="Ingresar" class="ingresar" />
+          <input type="button" value="Registrarme" class="registrarme" />
+        </div>
+      </div>
+    </main>
+
+    <aside class="asidecont wow animate__animated animate__fadeIn"></aside>
+  
+  
+  
+  
+  
+  <main>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 form-container">
+            <div
+              class="col-lg-8 col-md-12 col-sm-9 col-xl-12 form-box text-center"
+            >
+              <div class="usuario text-center mt-5 mb-3">
+                <img src="../icons/user.svg" width="150px" alt="" />
+              </div>
+
+              <div class="heading">
+                <h4>Login into your account</h4>
+              </div>
+
+              <form>
+                <div class="form-input">
+                  <span><i class="fa fa-envelope"> </i></span>
+                  <input type="email" placeholder="E-mail" required />
+                </div>
+                <div class="form-input">
+                  <span><i class="fa fa-lock"></i></span>
+                  <input type="password" placeholder="password" required />
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-6 col-md-6 d-none d-md-block image-container"
+          ></div>
+        </div>
+      </div>
+    </main>-->
