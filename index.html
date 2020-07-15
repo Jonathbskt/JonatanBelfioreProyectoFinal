@@ -65,6 +65,7 @@
       <h1 class=" titulo font-weight-bold text-white"> Encuentra tu hogar:</h1>
       <div class="row busqueda container">
         <div class="fondo col-lg-4 shadow-lg">
+
           <input class="shadow-0 border-0 col-md-12  col-sm-12 col-xl-12 search" type="text" name="search"
             placeholder="Inserte su busqueda">
 
@@ -109,20 +110,20 @@
       <h2 class="font-weight-bold text-black text-center tituloServicios"> Relájate, hacemos todo por tí:</h2>
       <div class="gridServicios">
         <div class="row row-servicios">
-          <div class="col-sm">
+          <div class="col-sm col-md">
             <span> <img src="/icons/loan(1).png " class="icono" alt="icono">
               <h4 class="font-weight-bold"> Variedad de propiedades:</h4>
               <p> Más de 600.000 propiedades en toda America. </p>
             </span>
 
           </div>
-          <div class="col-sm">
+          <div class="col-sm col-md">
             <span> <img src="/icons/key.png" class="icono" alt="icono2">
               <h4 class="font-weight-bold"> Líderes en ventas Online:</h4>
               <p> Miles de clientes lograron vender y/o alquilar su propiedad en AWS. </p>
             </span>
           </div>
-          <div class="col-sm">
+          <div class="col-sm col-md">
             <span> <img src="/icons/seller.png" class="icono" alt="icono3">
               <h4 class="font-weight-bold "> Tasamos tu inmueble:</h4>
               <p> Nuestro equipo de profesionales al alcance de tus manos. </p>
@@ -276,12 +277,14 @@
 
   <section class="jumbotron">
     <div class="row container-fluid jumbo">
-      <h2 class="display-6 col-lg-6 font-weight-bold wow animate_animated animate__fadeIn ">Te asesoramos en cada
+      <h2 class="display-6 col-lg-6 font-weight-bold wow animate_animated animate__fadeIn jumbo-title">Te asesoramos en
+        cada
         movimiento comercial que realices en AWS.</h2>
-      <p class="lead col-lg-6 wow animate_animated animate__fadeIn">Nuestros asesores te resolverán cualquier duda.</p>
+      <p class="lead col-lg-6 wow animate_animated animate__fadeIn jumbo-text">Nuestros asesores te resolverán cualquier
+        duda.</p>
     </div>
     <div>
-      <a class="btn btn-primary shadow-lg lg-6 btn-jumbotron shadow-lg wow animate_animated animate__fadeIn"
+      <a class="btn btn-primary shadow-lg sm-6 lg-6 btn-jumbotron shadow-lg wow animate_animated animate__fadeIn"
         href="views/login.html"> Registrarme</a>
     </div>
   </section>
@@ -358,11 +361,55 @@
           </iframe>
         </div>
         <div class="formulario col-md-6 col-sm-6 ">
-          <h2 class="display-4 font-weight-bold text-center wow animate_animated animate__slideInRight">Contacto:</h2>
-          <p class="wow animate_animated animate__slideInRight">Lorem ipsum dolor sit amet, consectetur adipisicing
-            elit. Consequatur, quaerat asperiores? Dolorem aliquid
-            itaque nesciunt, eos quod rerum enim consequatur impedit perferendis iste ab, nisi ipsam natus a. Dolores,
-            modi?</p>
+          <h2 class="display-4 contacto-title font-weight-bold text-center wow animate_animated animate__slideInRight">
+            Contacto:</h2>
+          <div class="container">
+            <div class="contact-form row wow animate_animated animate__slideInRight">
+
+              <div class="form-field col-lg-6">
+                <input type="text" id="name" class="input-text" name="" placeholder="Nombre">
+                <label for="name" class="label"></label>
+              </div>
+
+              <div class="form-field col-lg-6">
+                <input type="text" id="name" class="input-text" name="" placeholder="Apellido">
+                <label for="name" class="label"></label>
+              </div>
+
+              <div class="form-field col-lg-6">
+                <input type="email" id="email" class="input-text" name="" placeholder="E-mail">
+                <label for="email" class="label"></label>
+              </div>
+
+              <div class="form-field col-lg-6">
+                <input type="tel" id="tel" class="input-text" name="" placeholder="Telefono">
+                <label for="tel" class="label"></label>
+              </div>
+
+              <div class="form-field col-lg-12">
+                <input type="text" id="message" class="input-text" name="" placeholder="Tu mensaje">
+                <label for="message" class="label"></label>
+              </div>
+
+              <div class="col-md-7 col-sm-7 col-lg-7 col-xl-7">
+              </div>
+
+              <div class="btn-contacto">
+                <a class="btn btn-primary shadow-lg lg-12 md-12 sm-12 xl-12 btn-jumbotron shadow-lg wow animate_animated animate__fadeIn"
+                  href="#"> Enviar consulta</a>
+              </div>
+            </div>
+            <div class="redes wow animate_animated animate__slideInRight">
+              <h2 class="font-weight-bold text-left nuestras-redes">Nuestras Redes Sociales </h2>
+            </div>
+            <div class="contacto-social wow animate_animated animate__slideInRight">
+              <img class="social" src="icons/facebook.svg" alt="facebook" />
+              <img class="social" src="/icons/google-plus.svg" alt="googleplus" />
+              <img class="social" src="/icons/twitter.svg" alt="twitter" />
+              <img class="social social-inst" src="/icons/instagram.svg" alt="instagram" />
+              <img class="social social-link" src="/icons/linkedin(1).svg" alt="linkedin" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -398,6 +445,7 @@
         </video>
         <h2 class="display-3 font-weight-bold">>AWS</h2>
       </div>
+
     </section>  
   
   
