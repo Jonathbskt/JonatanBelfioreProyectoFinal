@@ -68,14 +68,6 @@ a {
     background-position: center;
   }
 
-  .fondo {
-    box-sizing: border-box;
-  }
-
-  .titulo {
-    padding-top: 20px !important;
-  }
-
   .input-group .btn {
     margin-left: 10px;
     background-color: #2946f7;
@@ -104,6 +96,7 @@ a {
   height: 60vh;
   background-size: cover;
   background-position: center;
+  width: 100%;
 }
 
 .fondo {
@@ -111,11 +104,36 @@ a {
   background: #ffffff;
   padding: 20px;
   border-radius: 5px;
+  margin-bottom: 20px;
 }
 
 .titulo {
   padding-top: 80px;
   margin-left: 60px;
+}
+
+@media (max-width: 576px) {
+  .titulo {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .titulo {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .titulo {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .titulo {
+    padding-top: 0;
+  }
 }
 
 .input-group .btn {
@@ -157,8 +175,8 @@ a {
   margin-top: 10px;
 }
 
-.search {
-  margin-top: 10px;
+.busqueda {
+  margin-bottom: 60px;
 }
 
 /** Servicios **/
@@ -265,6 +283,25 @@ a {
     padding-top: 40px;
   }
 }
+
+@media (max-width: 576px) {
+  .jumbotron {
+    background-image: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .jumbotron {
+    background-image: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .jumbotron {
+    background-image: none;
+  }
+}
+
 
 .jumbotron h2 {
   color: $titulo__jumbo;
@@ -458,6 +495,12 @@ a {
   }
 }
 
+@media (max-width: 768px) {
+  .socialmedia {
+    padding-bottom: 40px;
+  }
+}
+
 .registrarme,
 .ingresar {
   text-align: center;
@@ -557,6 +600,7 @@ a {
 
   .btn-contacto {
     padding-top: 30px;
+    margin: 0 auto;
   }
 
   .nuestras-redes {
@@ -564,6 +608,24 @@ a {
 
   }
 
+}
+
+@media (max-width: 768px) {
+  .contacto-title {
+    padding-top: 40px;
+  }
+
+  .btn-contacto {
+    padding-top: 30px;
+    margin: 0 auto;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .contacto-title {
+    padding-top: 40px;
+  }
 }
 
 //* Footer **//
@@ -600,8 +662,4 @@ a {
   color: #dee2e6;
   padding-bottom: 1rem;
   padding-top: 1.5rem;
-}
-
-.derechos {
-  padding: 0;
 }

@@ -51,7 +51,7 @@
           </li>
 
           <li>
-            <a class="btn btn-primary" href="views/login.html"> Loguearme</a>
+            <a class="btn btn-primary" href="#"> Loguearme</a>
           </li>
         </ul>
       </div>
@@ -61,7 +61,7 @@
   <main>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-6 col-md-6 form-container">
+        <div class="col-lg-6 col-md-12 form-container">
           <div class="bienvenido d-flex flex-column wow animate__animated animate__slideInLeft">
             <img src="../icons/user.svg" alt="usuario" class="userImage" />
             <h2 class="titulo__login font-weight-bold">¡Bienvenido!</h2>
@@ -104,100 +104,28 @@
           </div>
         </div>
 
-        <div class="col-lg-6 col-md-6 d-none d-md-block image-container wow animate_animated animate__slideInRight">
+        <div
+          class="col-lg-6 col-md-6 d-none d-sm-none d-md-block  image-container wow animate_animated animate__slideInRight">
         </div>
       </div>
     </div>
   </main>
 
-  <script src="js/wow.min.js"></script>
+  <script src="../js/wow.min.js"></script>
   <script>
     new WOW().init();
+  </script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src=" https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
   </script>
 </body>
 
 </html>
-
-<!-- NUEVO
-
-    <main>
-      <div class="container-fluid">
-        
-        <div class="bienvenido wow animate__animated animate__slideInLeft">
-          <img src="../icons/user.svg" alt="usuario" class="userImage" />
-          <h2>¡Bienvenido!</h2>
-          <p>Ingresa con tus redes:</p>
-          <div class="socialmedia">
-            <img src="../icons/facebook.svg" alt="facebook" />
-            <img src="../icons/google-plus.svg" alt="googleplus" />
-            <img src="../icons/twitter.svg" alt="twitter" />
-          </div>
-          <p>O ingresa con tu:</p>
-          <div class="usuarioInput">
-            <input
-              type="text"
-              name="email"
-              id="email"
-              placeholder="Ingresa tu Email"
-              class="inputEmail"
-              required
-            />
-
-            <input
-              type="text"
-              name="contraseña"
-              id="contraseña"
-              placeholder="Ingresa tu Contraseña"
-              class="inputContraseña"
-              required
-            />
-          </div>
-          <div>
-            <p><a href="#"> Olvidé mi contraseña</a></p>
-          </div>
-          <input type="button" value="Ingresar" class="ingresar" />
-          <input type="button" value="Registrarme" class="registrarme" />
-        </div>
-      </div>
-    </main>
-
-    <aside class="asidecont wow animate__animated animate__fadeIn"></aside>
-  
-  
-  
-  
-  
-  <main>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 form-container">
-            <div
-              class="col-lg-8 col-md-12 col-sm-9 col-xl-12 form-box text-center"
-            >
-              <div class="usuario text-center mt-5 mb-3">
-                <img src="../icons/user.svg" width="150px" alt="" />
-              </div>
-
-              <div class="heading">
-                <h4>Login into your account</h4>
-              </div>
-
-              <form>
-                <div class="form-input">
-                  <span><i class="fa fa-envelope"> </i></span>
-                  <input type="email" placeholder="E-mail" required />
-                </div>
-                <div class="form-input">
-                  <span><i class="fa fa-lock"></i></span>
-                  <input type="password" placeholder="password" required />
-                </div>
-              </form>
-            </div>
-          </div>
-
-          <div
-            class="col-lg-6 col-md-6 d-none d-md-block image-container"
-          ></div>
-        </div>
-      </div>
-    </main>-->
