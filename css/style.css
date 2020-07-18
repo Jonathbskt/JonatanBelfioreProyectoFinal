@@ -91,7 +91,7 @@ a {
   .titulo {
     padding-top: 0; } }
 
-@media (max-width: 1500px) {
+@media (max-width: 1900px) {
   .titulo {
     padding-top: 30px; } }
 
@@ -343,8 +343,7 @@ a {
 
 .bienvenido {
   justify-content: center;
-  align-items: center;
-  padding-top: 50px; }
+  align-items: center; }
 
 .userImage {
   width: 150px;
@@ -365,6 +364,10 @@ a {
   margin: 5px; }
 
 @media (max-width: 576px) {
+  .socialmedia {
+    padding-bottom: 40px; } }
+
+@media (max-width: 768px) {
   .socialmedia {
     padding-bottom: 40px; } }
 

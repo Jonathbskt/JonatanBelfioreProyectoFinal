@@ -131,7 +131,7 @@ a {
   }
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1900px) {
   .titulo {
     padding-top: 30px;
   }
@@ -466,7 +466,7 @@ a {
 .bienvenido {
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
+
 }
 
 .userImage {
@@ -493,6 +493,12 @@ a {
 }
 
 @media (max-width: 576px) {
+  .socialmedia {
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
   .socialmedia {
     padding-bottom: 40px;
   }
