@@ -91,9 +91,9 @@ a {
   .titulo {
     padding-top: 0; } }
 
-@media (max-width: 1200px) {
+@media (max-width: 1500px) {
   .titulo {
-    padding-top: 0; } }
+    padding-top: 30px; } }
 
 .input-group .btn {
   border-radius: 20px;
