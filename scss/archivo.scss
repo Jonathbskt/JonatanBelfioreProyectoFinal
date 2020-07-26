@@ -233,6 +233,17 @@ a {
   height: 100%;
 }
 
+.titulo-card {
+  color: $subtitulo;
+}
+
+.icono1 img {
+  width: 30px;
+  margin-left: 10px;
+  padding-top: 4px;
+
+}
+
 /** Ultimas Publicaciones */
 
 .titulo-publicaciones {
@@ -480,16 +491,10 @@ a {
   text-align: center;
 }
 
-.socialmedia {
-  display: flex;
-  width: 300px;
-  flex-direction: row;
-}
-
 
 .socialmedia img {
+  width: 100px;
   cursor: pointer;
-  margin: 5px;
 }
 
 @media (max-width: 576px) {
@@ -505,6 +510,12 @@ a {
 }
 
 @media (max-width: 768px) {
+  .socialmedia {
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 1200) {
   .socialmedia {
     padding-bottom: 40px;
   }
